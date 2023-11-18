@@ -1,0 +1,50 @@
+/*-------------------------------------------------------------
+Template Name: Blad Ai
+Template URL: 
+Author Name: 
+Author URL: 
+Version: 1.0
+Description: 
+Tags: nft
+Text Domain:
+-------------------------------------------------------------*/
+
+/*------------------------------------------------------------- 
+TABLE OF CONTENTS: 
+---------------------------------------------------------------
+>> Variable
+>> Mixin
+>> Theme Defualt
+>> Spacing
+>> Preloader
+>> Header
+>> Footer
+>> Breadcrumb
+>> Homepage
+>> Auction
+>> Wallet
+>> Create Item
+>> Authors
+>> Register
+>> Contact
+>> Activity
+>> Explore
+>> Blog
+
+--------------------------------------------------------------*/
+
+// Theme
+@import "theme/variable";
+@import "theme/mixin";
+@import "theme/button";
+@import "theme/spacing";
+@import "theme/preloader";
+@import "theme/themedefault";
+
+// Layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/breadcumb";
+
+// Pages
+@import "pages/index-1";

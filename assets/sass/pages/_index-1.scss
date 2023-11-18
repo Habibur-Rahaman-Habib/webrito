@@ -1,0 +1,103 @@
+// banner start
+.banner_title {
+  margin-bottom: 72px;
+  h1 {
+    color: var(--dark);
+    font-family: var(--jakarta);
+    font-size: 96px;
+    font-weight: 700;
+    span {
+      color: var(--blue);
+    }
+  }
+}
+
+.banner_btn {
+  .hire {
+    width: 204px;
+    height: 62px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+    border: none;
+    outline: none;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: var(--hanken);
+    margin-right: 15px;
+    span {
+      width: 40px;
+      height: 40px;
+      background: var(--white);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      margin-left: 20px;
+    }
+  }
+  .call_us {
+    width: 204px;
+    height: 62px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+    border: 2px solid var(--blue);
+    outline: none;
+    background: var(--white);
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: var(--hanken);
+    margin-right: 15px;
+    span {
+      width: 40px;
+      height: 40px;
+      background: var(--blue);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      margin-left: 20px;
+    }
+  }
+}
+
+// serviec slider
+
+.service_slider {
+  marquee {
+    ul {
+      li {
+        a {
+          display: inline-flex;
+          align-items: center;
+          h4 {
+            display: inline-block;
+            padding: 34px 56px;
+            border-radius: 56px;
+            background: var(--orange);
+            color: var(--dark);
+            font-weight: 700;
+            font-family: var(--jakarta);
+          }
+          .hover_icon {
+            display: inline-block;
+            width: 114px;
+            height: 114px;
+            flex-shrink: 0;
+            padding: 29px;
+            border-radius: 50%;
+            background: var(--orange);
+          }
+        }
+      }
+    }
+  }
+}
