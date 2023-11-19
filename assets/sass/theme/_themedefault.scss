@@ -51,3 +51,43 @@ p {
 .gray_bg {
   background: var(--gray_bg);
 }
+
+.common_title {
+  h6 {
+    color: var(--blue);
+    font-family: var(--hanken);
+    font-weight: 600;
+  }
+  h2 {
+    color: var(--dark);
+    font-family: var(--jakarta);
+    font-weight: 700;
+    line-height: 130%;
+  }
+  p {
+    margin-top: 45px;
+    color: var(--text);
+    font-family: var(--hanken);
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.slider-spacing {
+  .slick-list {
+    margin: 0 -12px;
+  }
+  .slick-slide {
+    margin: 0 12px;
+  }
+}
+
+.img {
+  overflow: hidden;
+  img {
+    transition: var(--transition);
+    &:hover {
+      transform: scale(1.08);
+    }
+  }
+}
