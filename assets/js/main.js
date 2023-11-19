@@ -5,7 +5,7 @@
     slidesToShow: 3,
     arrows: false,
     dots: false,
-    autoplay: false,
+    autoplay: true,
     speed: 10000,
     autoplaySpeed: 100,
     cssEase: 'linear',
