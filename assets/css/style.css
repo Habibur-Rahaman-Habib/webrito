@@ -50,6 +50,9 @@ TABLE OF CONTENTS:
 .ptb-140 {
   padding: 140px 0; }
 
+.ptb-160 {
+  padding: 160px 0; }
+
 h1,
 h2,
 h3,
@@ -269,14 +272,14 @@ p {
     border-radius: 5px;
     margin-left: 20px; }
 
-.service_slider marquee ul li a {
+.service_list_slider .service_item a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  .service_slider marquee ul li a h4 {
+  .service_list_slider .service_item a h4 {
     display: inline-block;
     padding: 34px 56px;
     border-radius: 56px;
@@ -284,7 +287,7 @@ p {
     color: var(--dark);
     font-weight: 700;
     font-family: var(--jakarta); }
-  .service_slider marquee ul li a .hover_icon {
+  .service_list_slider .service_item a .hover_icon {
     display: inline-block;
     width: 114px;
     height: 114px;

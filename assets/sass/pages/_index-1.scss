@@ -70,34 +70,31 @@
 }
 
 // serviec slider
-
-.service_slider {
-  marquee {
-    ul {
-      li {
-        a {
-          display: inline-flex;
-          align-items: center;
-          h4 {
-            display: inline-block;
-            padding: 34px 56px;
-            border-radius: 56px;
-            background: var(--orange);
-            color: var(--dark);
-            font-weight: 700;
-            font-family: var(--jakarta);
-          }
-          .hover_icon {
-            display: inline-block;
-            width: 114px;
-            height: 114px;
-            flex-shrink: 0;
-            padding: 29px;
-            border-radius: 50%;
-            background: var(--orange);
-          }
-        }
+.service_list_slider {
+  .service_item {
+    a {
+      display: inline-flex;
+      align-items: center;
+      h4 {
+        display: inline-block;
+        padding: 34px 56px;
+        border-radius: 56px;
+        background: var(--orange);
+        color: var(--dark);
+        font-weight: 700;
+        font-family: var(--jakarta);
+      }
+      .hover_icon {
+        display: inline-block;
+        width: 114px;
+        height: 114px;
+        flex-shrink: 0;
+        padding: 29px;
+        border-radius: 50%;
+        background: var(--orange);
       }
     }
   }
 }
+
+// popular service
