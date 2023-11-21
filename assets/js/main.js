@@ -84,6 +84,28 @@
     });
   });
 
+  // award slider
+  $('.award_slider').slick({
+    centerMode: true,
+    // centerPadding: '60px',
+    slidesToShow: 6,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    // responsive: [
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '40px',
+    //       slidesToShow: 3
+    //     }
+    //   },
+    // ]
+  });
+
+
 
 })(jQuery);
 
@@ -134,6 +156,11 @@ function myFunction3() {
     btnText.innerHTML = 'Read less <i class="fa-solid fa-angle-up"></i>';
     moreText.style.display = "inline";
   }
+}
 
+function toggleClass(divId) {
+  var myDiv = document.getElementById(divId);
+  var className = 'highlighted' + divId.charAt(divId.length - 1);
+  myDiv.classList.toggle(className);
 }
 
