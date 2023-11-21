@@ -975,3 +975,125 @@
     }
   }
 }
+
+// consultation
+.consultation {
+  background: #7066a9;
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+  }
+  .content {
+    position: relative;
+    z-index: 5;
+    h6 {
+      color: var(--orange);
+      font-family: var(--hanken);
+      font-weight: 600;
+      line-height: 150%;
+    }
+    h2 {
+      color: var(--white);
+      font-family: var(--jakarta);
+      font-weight: 700;
+      line-height: 130%;
+      margin-bottom: 30px;
+    }
+    .hire {
+      width: 233px;
+      background: var(--orange);
+      color: var(--black);
+    }
+  }
+}
+
+// faq section
+.faq {
+  .common_title {
+    margin-bottom: 60px;
+  }
+}
+
+.faqleft {
+  ul {
+    background: #f4f0ed;
+    border-radius: 16px;
+    margin-bottom: 60px;
+    li {
+      color: var(--dark);
+      font-family: var(--jakarta);
+      font-size: 24px;
+      font-weight: 600;
+      padding: 22px 40px;
+      transition: var(--transition);
+      &:first-child {
+        border-radius: 16px 16px 0px 0px;
+      }
+      &:last-child {
+        border-radius: 0px 0px 16px 16px;
+      }
+      &:hover {
+        background: var(--orange);
+      }
+      & + li {
+        border-top: 1px solid #e7ecf0;
+      }
+    }
+  }
+  .chat {
+    padding: 40px 48px;
+    padding-bottom: 90px;
+    border-radius: 16px;
+    background: #322580;
+    h4 {
+      color: #fff;
+      font-family: var(--jakarta);
+      font-weight: 700;
+      line-height: 140%;
+    }
+    .chat_icon {
+      right: 40px;
+      bottom: 40px;
+      .arrow {
+        margin-right: 20px;
+      }
+      .msg {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--orange);
+      }
+    }
+  }
+}
+
+.faq_right {
+  .service_accordion {
+    .accordion-item {
+      border: 3px solid #d9cdc5;
+      background: #f4f0ed;
+      box-shadow: 10px 10px #d9cdc5;
+      h2 {
+        button {
+          background: #f4f0ed;
+          color: var(--dark);
+          font-size: 32px;
+          font-weight: 700;
+          padding: 24px 30px;
+          &::after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='none'%3E%3Cpath d='M10 15L20 25L30 15' stroke='%23050213' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+          }
+        }
+      }
+    }
+    .accordion-body {
+      padding: 0 32px;
+    }
+  }
+}
